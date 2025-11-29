@@ -55,8 +55,8 @@ project/
 ### **1. Clone the project**
 
 ```
-git clone <your-repo-url>
-cd your-project
+git clone https://github.com/SyedaMahamFahim/AutoJobMailer
+cd AutoJobMailer
 ```
 
 ### **2. Create a virtual environment**
