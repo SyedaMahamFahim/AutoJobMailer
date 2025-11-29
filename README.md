@@ -115,6 +115,37 @@ your_password = "your_password"
 
 For Gmail, use an **App Password**, not your real login password.
 
+Perfect, Maham — I’ll give you a clean section that fits naturally inside your README.
+Use it exactly as it is.
+
+Add this right after the **“Add your email credentials”** section.
+
+---
+
+### **🔐 Generate a Gmail App Password**
+
+Google does not allow normal account passwords for automated emails.
+You must create a **Gmail App Password** and use that in your script.
+
+Follow one of these:
+
+* Generate it directly from your Google account:
+  **[https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)**
+
+* Or watch this short 2-minute tutorial:
+  **[https://www.youtube.com/watch?v=hGoaVus0-Mg](https://www.youtube.com/watch?v=hGoaVus0-Mg)**
+
+After generating the password, replace this in your script:
+
+```
+your_password = "your_app_password_here"
+```
+
+That’s it — now your script will authenticate safely with Gmail.
+
+
+
+
 ---
 
 ## **🗂️ Prepare Your Files**
